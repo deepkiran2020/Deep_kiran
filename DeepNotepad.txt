@@ -1,0 +1,126 @@
+let numLives=10
+undefined
+numLives=10
+10
+numLives -= 1
+9
+numLives
+9
+numLives--
+9
+numLives
+8
+numlives++
+VM880:1 Uncaught ReferenceError: numlives is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM880:1
+numLives++;
+8
+numLives
+9
+numLives++;
+9
+numLives
+10
+const luckyNum = 15;
+undefined
+luckyNum += 10
+VM1059:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:10
+(anonymous) @ VM1059:1
+luckyNum -= 10
+VM1100:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:10
+(anonymous) @ VM1100:1
+luckyNum = 10
+VM1127:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:10
+(anonymous) @ VM1127:1
+Var Numvalue = 25
+VM1184:1 Uncaught SyntaxError: Unexpected identifier
+Var runDistance = 25.2;
+VM1237:1 Uncaught SyntaxError: Unexpected identifier
+var runDistance = 26.2;
+undefined
+runDistance += 7
+33.2
+true
+true
+false
+false
+truth
+VM1360:1 Uncaught ReferenceError: truth is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1360:1
+12
+12
+let favAnimal = "monkey";
+undefined
+let username = 'Deep';
+undefined
+let animal = "Monkey"
+undefined
+animal
+"Monkey"
+animal[1]
+"o"
+animal[4]
+"e"
+animal = "Pink Monkey"
+"Pink Monkey"
+animal[8]
+"k"
+animal[5]
+"M"
+animal[4]
+" "
+let phone = "(5875452776)";
+undefined
+phone
+"(5875452776)"
+phone[5]
+"4"
+phone[10]
+"6"
+animal.length
+11
+"lol".length
+3
+lol[1]
+VM1982:1 Uncaught ReferenceError: lol is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1982:1
+"lol"[2]
+"l"
+"
+VM2009:1 Uncaught SyntaxError: Invalid or unexpected token
+"lol"[1]
+"o"
+"sum"+"sum"
+"sumsum"
+let firstName = "Deepkiran";
+undefined
+let lastName = "Dhillon";
+undefined
+firstName+lastName =
+VM2245:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+firstName+lastName
+"DeepkiranDhillon"
+firstName+""+lastName
+"DeepkiranDhillon"
+firstName + " " + lastName
+"Deepkiran Dhillon"
+let fullName = firstName + " " + lastName
+undefined
+fullName
+"Deepkiran Dhillon"
+firstName
+"Deepkiran"
+lastName
+"Dhillon"
+let year = "1998"
+undefined
+year+1
+"19981"
+year + 1;
+"19981"
